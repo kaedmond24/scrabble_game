@@ -59,6 +59,7 @@ print(player_to_points)
 def play_word(player_name, word):
   player_to_word[player_name].append(word)
 
+# Function to update point scores 
 # def update_point_totals():
 #   # Loop through each player's word list
 #   # and score the word then update score mapping
@@ -72,4 +73,7 @@ def play_word(player_name, word):
 
 #   # Display game scores
 #   print(player_to_points)
+
+
+
 
